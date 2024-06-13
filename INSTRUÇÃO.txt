@@ -10,7 +10,7 @@ Apagar: Tirar um funcionário do sistema e os equipamentos dele junto.
 
 .Para facilitar, clone o repositório em seu computador:
 
-git clone <https://github.com/gvendrami/Inventario_BD>
+git clone <https://github.com/gvendrami/Inventario_BD.git>
 
 .Utilize os seguintes comandos para criar o ambiente virtual, juntamente com a instalação dos requerimentos:
 
