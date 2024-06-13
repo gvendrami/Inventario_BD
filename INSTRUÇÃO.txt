@@ -1,0 +1,30 @@
+API de Gerenciamento de Ativos de TI para Funcionários
+Com esta API, você pode fazer tudo para controlar o que cada funcionário tem e usa de material de informática. Ela guarda tudo num banco de dados do MongoDB. Você pode:
+
+Adicionar: Colocar novos funcionários e o que eles têm de material.
+Ver: Ver detalhes dos funcionários e seus equipamentos.
+Atualizar: Mudar informações sobre os funcionários e o material deles.
+Apagar: Tirar um funcionário do sistema e os equipamentos dele junto.
+
+-Instalação:
+
+.Para facilitar, clone o repositório em seu computador:
+
+git clone <https://github.com/gvendrami/Inventario_BD>
+
+.Utilize os seguintes comandos para criar o ambiente virtual, juntamente com a instalação dos requerimentos:
+
+python -m venv venv
+source venv/bin/activate   # Linux
+venv\Scripts\activate   #Windows
+pip install -r requirements.in
+
+.Configure, dentro do MongoDB, o ambiente para a sincronização com o python:
+
+export MONGO_URI='mongodb://localhost:27017/'  #Linux
+set MONGO_URI='mongodb://localhost:27017/'   #Windows
+
+.Execute o comando para rodar o aplicativo:
+
+python apk.py
+
